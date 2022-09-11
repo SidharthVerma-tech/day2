@@ -1,0 +1,40 @@
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+body
+{
+    height : 200%;
+    width : 100%;
+    background: url('./assets/jisoo.jpg');
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid red;
+}
+.days{
+    margin: 20px;
+}
+input{
+    height: 60px;
+    width: 100px;
+    border-radius: 7px;
+    font-size: 2rem;
+}
